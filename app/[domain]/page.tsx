@@ -118,7 +118,7 @@ export default async function IndexPage({
         </p>
       </div>
       <div>
-       {/* <Stage title="Enter your current handle" number={1}>
+       { <Stage title="Enter your current handle" number={1}>
           <form>
             <div className="grid w-full max-w-sm items-center gap-1.5">
               <div className="flex w-full max-w-sm items-center space-x-2">
@@ -152,7 +152,7 @@ export default async function IndexPage({
               )}
             </div>
           </form>
-        </Stage>*/}
+        </Stage>}
         <Stage title="Choose your new handle" number={2} disabled={!profile}>
           <form>
             <input type="hidden" name="handle" value={handle} />
